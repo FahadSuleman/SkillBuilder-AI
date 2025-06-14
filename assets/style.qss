@@ -1,0 +1,144 @@
+/* Main window */
+QMainWindow {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    font-family: "Segoe UI";
+}
+
+/* General labels */
+QLabel {
+    color: #f0f0f0;
+    font-size: 66px;
+    font-weight: 600;
+}
+
+/* Tabs */
+QTabWidget::pane {
+    border: 1px solid #44475a;
+    background: #1e1e2f;
+}
+QTabBar::tab {
+    background: #2b2b3d;
+    color: #ffffff;
+    padding: 20px 28px;
+    border: 1px solid #44475a;
+    border-bottom: none;
+    min-width: 200px;
+    font-size: 28px;
+}
+QTabBar::tab:selected {
+    background: #6272a4;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Inputs */
+QLineEdit, QComboBox, QSpinBox {
+    background-color: #2b2b3d;
+    color: #ffffff;
+    border: 2px solid #44475a;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 28px;
+}
+
+/* Output */
+QTextBrowser {
+    background-color: #282a36;
+    color: #f8f8f2;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 28px;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #6272a4;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 18px 36px;
+    font-weight: bold;
+    font-size: 28px;
+}
+QPushButton:hover {
+    background-color: #7085d4;
+}
+QPushButton:pressed {
+    background-color: #445073;
+}
+
+/* Scrollbars */
+QScrollBar:vertical, QScrollBar:horizontal {
+    background: #2b2b3d;
+    width: 16px;
+}
+QScrollBar::handle {
+    background: #6272a4;
+    border-radius: 8px;
+}
+
+/* MessageBox */
+QMessageBox {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+/* == Added Styles == */
+
+/* Roadmap flow box */
+QTextBrowser .flow-diagram {
+    background: #3b3b5f;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 26px;
+}
+
+/* Week sections */
+QTextBrowser .week-section h2 {
+    color: #50fa7b;
+    margin: 12px 0 4px 0;
+    font-size: 42px;
+}
+QTextBrowser .week-section ul {
+    margin-left: 24px;
+    margin-bottom: 12px;
+}
+
+/* Markdown-generated content */
+QTextBrowser h1, QTextBrowser h2, QTextBrowser h3 {
+    color: #50fa7b;
+}
+QTextBrowser p {
+    margin: 8px 0;
+    font-size: 48px;
+}
+QTextBrowser ul, QTextBrowser ol {
+    margin: 8px 0 16px 32px;
+}
+QTextBrowser li {
+    margin-bottom: 4px;
+    font-size: 36px;
+}
+QTextBrowser strong {
+    font-weight: bold;
+}
+
+
+/* Chat bubbles */
+QTextBrowser span.user {
+    background: #44475a;
+    padding: 8px;
+    border-radius: 8px;
+    display: block;
+    margin: 6px 0;
+}
+QTextBrowser span.coach {
+    background: #6272a4;
+    padding: 8px;
+    border-radius: 8px;
+    display: block;
+    margin: 6px 0;
+}
