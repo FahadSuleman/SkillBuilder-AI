@@ -30,3 +30,39 @@
 ```bash
 git clone https://github.com/FahadSuleman/SkillBuilder-AI.git
 cd skillbuilder-ai
+
+```
+
+### 2. Create and Activate Virtual Environment (Recommended)
+
+```bash
+# For Windows:
+python -m venv venv
+venv\Scripts\activate
+
+# For macOS/Linux:
+python3 -m venv venv
+source venv/bin/activate
+
+```
+
+### 3. Install Required Packages
+
+```bash
+pip install -r requirements.txt
+
+```
+
+### 4. Add Your API Key
+
+```bash
+GEMINI_API_KEY=your_google_gemini_api_key
+
+```
+
+### 5. Run the App
+
+```bash
+python main.py
+
+```
