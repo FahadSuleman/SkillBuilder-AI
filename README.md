@@ -30,13 +30,3 @@
 ```bash
 git clone https://github.com/FahadSuleman/SkillBuilder-AI.git
 cd skillbuilder-ai
-
-### 2. Create and Activate Virtual Environment (Recommended)
-
-# For Windows:
-python -m venv venv
-venv\Scripts\activate
-
-# For macOS/Linux:
-python3 -m venv venv
-source venv/bin/activate
