@@ -19,7 +19,7 @@
 - **Frontend**: PyQt5 (Python GUI)
 - **Backend**: Google Gemini API
 - **Language**: Python 3.10+
-- **Other Tools**: markdown, dotenv
+- **Other Tools**: markdown, requests
 
 ---
 
